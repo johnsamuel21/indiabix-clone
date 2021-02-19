@@ -1,0 +1,15 @@
+p,li{
+    font-family: arial;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.question{
+    font-weight: bold;
+    color: #5eac1a;
+}
+
+.answer{
+    color: grey;
+}
+

@@ -1,0 +1,57 @@
+.question{
+    margin-bottom: 15px;
+}
+
+
+li button{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+}
+
+
+ol li{
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+pre{
+    font: inherit;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+    display: block;
+    margin-right: 60px;
+    color: #07c;
+}
+
+
+
+#colorgreen-bold{
+    color: #5eac1a;
+    font-weight: bold;
+}
+
+.hiddenoption{
+    margin-right: 20px;
+    color: #07c;
+}
+
+.hiddenoption:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

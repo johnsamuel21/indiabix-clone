@@ -1,0 +1,45 @@
+<div class="question" *ngFor="let vale of quesarray">
+    <p>{{vale.question}}</p>
+    <ol type="A">
+        <li><button>{{vale.option1}}</button></li>
+        <li><button>{{vale.option2}}</button></li>
+        <li><button>{{vale.option3}}</button></li>
+        <li><button>{{vale.option4}}</button></li>
+    </ol>
+    <div class="viewanswer" style="display: none;">
+        
+        <p><span id="colorgreen-bold">Answer:</span> Option {{vale.answer}}</p>
+
+        <p ><span id="colorgreen-bold">Explanation:</span></p>
+        
+        <pre *ngFor="let exparray of vale.explaination.split('.').slice(0,-1)">
+        {{exparray}}
+        </pre>       
+    </div>
+
+    <div class="discussion" style="display: none;">
+        <a href="javascript: void 0" onclick="$('.discussion').slideToggle('slow')">Workspace</a>
+        <textarea rows="10" cols="65" style="width: 100%;"></textarea>
+
+    </div>
+
+
+    <div class="report" style="display: none;">
+        <a href="javascript: void 0" onclick="$('.report').slideToggle('slow')">Report</a>
+<textarea rows="10" cols="65" style="width: 100%;">
+
+
+
+
+
+
+Name:
+Email:
+</textarea>
+<button >Send Report</button>
+</div>
+    <span class="hiddenoption" onclick="$(this).prev().prev().prev().slideToggle('slow')"><img src="../../../../assets/images/bookopen.png">View Answer</span>
+    <span class="hiddenoption"><img src="../../../../assets/images/discuss.png">Discuss in Forum</span>
+    <span class="hiddenoption" onclick="$(this).prev().prev().prev().prev().slideToggle('slow')"><img src="../../../../assets/images/workspace.png">Workspace</span>
+    <span class="hiddenoption" onclick="$(this).prev().prev().prev().prev().slideToggle('slow')"><img src="../../../../assets/images/report-error.gif">Report</span>
+</div>
