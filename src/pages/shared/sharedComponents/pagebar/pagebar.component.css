@@ -1,0 +1,26 @@
+.pagebar{
+    margin: 25px 40px;
+    text-align: center;
+}
+
+
+
+#box-button{
+    /* background-color: rgb(235, 235, 235); */
+    padding: 5px 8px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    color: #07c;
+    margin-right: 20px;
+}
+
+#box-button:hover{
+    background-color: #5eac1a;
+    cursor: pointer;
+}
+
+
+
+#span{
+    font-weight: bold;
+}

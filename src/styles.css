@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.wholepage{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13px;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,pre,a,li{
+    font-family: arial;
+    font-size: 15px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

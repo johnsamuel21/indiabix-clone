@@ -1,0 +1,58 @@
+
+ul.top-bar {
+    
+    list-style-type: none;
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3399FF;
+  }
+
+.top-bar li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.top-bar li:hover{
+    background-color: #3cb371;
+    cursor: pointer;
+}
+
+.top-bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.expandable{
+    border: 1px solid rgb(241, 240, 240);
+}
+
+.expandable h4{
+    color: #5eac1a;
+    background-color: lightgray;
+    font-weight: 450;
+    margin: 0;
+    padding: 3px 7px;
+}
+
+.expandable pre{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    padding: 7px;
+    margin-left: 18px;
+}
+
+.expandable a{
+    text-decoration: none;
+    color: #07c;
+}
+
+.expandable a:hover{
+    text-decoration: underline;
+}

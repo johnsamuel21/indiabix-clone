@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: #07c;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.linktab{
+    background-color: #f4f5fa;
+    margin-top: 10px;
+}
+
+h3{
+    padding-top: 10px;
+    padding-left: 5px;
+    color: #5eac1a;
+    margin-bottom: 0px;
+}
+
+#graycolor{
+    color: grey;
+} 
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 0;
+    overflow: auto;
+}
+
+li{
+    display: block;
+    color: white;
+    padding: 6px 3px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 3px;
+    text-decoration: none;
+}
+
+.wel{
+    background-color: #f4f5fa;
+}

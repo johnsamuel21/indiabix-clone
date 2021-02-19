@@ -1,0 +1,51 @@
+.mb{
+    overflow: auto;
+}
+.left{
+    padding-top: 15px;
+    float: left;
+    width: 49%;
+
+}
+
+.right{
+    padding-top: 15px;
+    float: right;
+    width: 49%;
+}
+
+.head{
+    background-color: #f4f5fa;
+    margin-top: 5px;
+    padding: 6px 12px;
+    font-size: 15px;
+    color: #5eac1a;
+}
+
+.qapng{
+    width: 15%;
+    float: left;
+}
+
+ul{
+    padding-left: 15%;
+}
+
+li{
+    line-height: 1.9;
+    list-style: none;
+    color: #07C;
+}
+
+li::before{ 
+    content: "\00BB"; 
+}
+
+li a{
+    text-decoration: none;
+    color: #07C;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
